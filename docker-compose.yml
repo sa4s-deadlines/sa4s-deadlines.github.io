@@ -1,0 +1,12 @@
+name: sa4sdeadlines
+services:
+    jekyll:
+        volumes:
+            - $PWD:/srv/jekyll
+        ports:
+            - 4000:4000
+        stdin_open: true
+        tty: true
+        image: jekyll/jekyll
+        command: /bin/bash -c "gem install webrick && gem install github-pages && jekyll
+            serve"
