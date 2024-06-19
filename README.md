@@ -1,6 +1,6 @@
-# Software engineering deadlines countdown
+# SA4S Deadlines
 
-Based on [ai-deadlines](https://aideadlin.es) by @abshkdz
+Forked from [se-deadlines](https://se-deadlines.github.io) by @sivanahamer and @imranur-rahman, which is in turn based on [ai-deadlines](https://aideadlin.es) by @abshkdz
 and [sec-deadlines](https://sec-deadlines.github.io)
 
 ## Adding/updating a conference
@@ -32,16 +32,16 @@ Descriptions of the fields:
 
 | Field name    | Description                                                             |
 |---------------|-------------------------------------------------------------------------|
-| `name`\*      | Short entry name, without year                 |
-| `description` | Description, or long name                      |
-| `year`\*      | Year the event is happening                    |
-| `link`\*      | URL to the entry home page                     |
-| `deadline`\*  | A list of deadlines. ([Gory details below][8]) |
-| `date`        | When the entry is happening                    |
-| `place`       | Where the entry is happening                   |
-| `note`        | Extra [notes][7] about the deadline            |
-| `tags`        | One or multiple [tags][3]                      |
-
+| `name`\*      | Short entry name, without year                      |
+| `description` | Description, or long name                           |
+| `year`\*      | Year the event is happening                         |
+| `link`\*      | URL to the entry home page                          |
+| `deadline`\*  | A list of deadlines. ([Gory details below][8])      |
+| `date`        | When the entry is happening                         |
+| `place`       | Where the entry is happening                        |
+| `note`        | Extra [notes][7] about the deadline                 |
+| `tags`        | One or multiple [tags][3]                           |
+| `ranking`     | The Core ranking for a conference, if ranked.       |
 
 Fields marked with asterisk (\*) are required.
 
@@ -72,6 +72,13 @@ On the page, all deadlines are displayed in viewer's local time (that's a featur
 ### Timezones
 
 Please remember that the timezone should be AoE (Anywhere on Earth) when you submit a pull request.
+
+## Local Development
+### Building Using Docker
+Build using `docker run -it -p 4000:4000 -v $(pwd)/site:/site itzg/jekyll-github-pages` which will start a server at `http://localhost:4000` and store the built site at `_site/`. Remove the `Gemfile` and `Gemfile.lock` it creates after it is done.
+
+### Serving Using Docker
+Use `docker compose up` to start a server that displays the page at `http://localhost:4000` that will watch for changes. Reload the page when you make a change to view it. This will take a while to start, don't worry.
 
 <!-- The timezone is specified in [tz format][1]. Unlike abbreviations (e.g. EST), these are un-ambiguous. Here are tz codes for some common timezones:
 
