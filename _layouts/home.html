@@ -61,6 +61,7 @@
                 <div class="meta">
                   {{ conf.description }}<br>
                   {{conf.date | replace: '-', '–'}} {% if conf.place %}// <a href="http://maps.google.com/?q={{conf.place}}">{{conf.place}}</a>{% endif %}<br>
+                  {% if conf.note %} <div class="note"> <b>Note: </b>{{conf.note}} </div> {% endif %}<br>
                 </div>
               </div>
               <div class="col-xs-12 col-sm-6">
@@ -122,13 +123,44 @@
         }
       }
 
+      // parse abstract deadlines
+      var rawAbsDeadlines = {{ conf.abstract_deadline | jsonify }} || [];
+      if (rawAbsDeadlines.constructor !== Array) {
+        rawAbsDeadlines = [rawAbsDeadlines];
+      }
+      var parsedAbsDeadlines = [];
+      while (rawAbsDeadlines.length > 0) {
+        var rawAbsDeadline = rawAbsDeadlines.pop();
+        // check if deadline is template
+        if (rawAbsDeadline.indexOf('%m') >= 0) {
+          for (var m = 1; m <= 12; m++) {
+            rawAbsDeadlines.push(rawAbsDeadline.replace('%m', m < 10 ? '0' + m : m));
+          }
+        } else if (rawAbsDeadline.indexOf('%y') >= 0) {
+          year = parseInt(moment().year());
+          rawAbsDeadlines.push(rawAbsDeadline.replace('%y', year));
+          rawAbsDeadlines.push(rawAbsDeadline.replace('%y', year + 1));
+        } else {
+          // adjust date according to deadline timezone
+          {% if conf.timezone %}
+          var deadline = moment.tz(rawAbsDeadline, "{{ conf.timezone }}");
+          {% else %}
+          var deadline = moment(rawAbsDeadline + "-12:00");
+          {% endif %}
+          parsedAbsDeadlines.push(deadline);
+        }
+      }
+
       // check which deadline is closest
       var confDeadline = parsedDeadlines[0];
+      var confAbsDeadline = parsedAbsDeadlines[0];
       var today = moment();
       for (var i = 1; i < parsedDeadlines.length; i++) {
         deadlineCandidate = parsedDeadlines[i];
           if ((today.diff(deadlineCandidate) < 0 && today.diff(deadlineCandidate) > today.diff(confDeadline))) {
           confDeadline = deadlineCandidate;
+          // its ok if the abstract deadline has passed if the full deadline is in the future
+          confAbsDeadline = parsedAbsDeadlines[i];
         }
       }
 
@@ -148,9 +180,11 @@
         }
 
         $('#{{ conf_id }} .deadline-time').html(confDeadline.local().format('D MMM YYYY, h:mm:ss a'));
-
+        
         deadlineByConf["{{ conf_id }}"] = confDeadline;
+        $('#{{ conf_id }} .abstract-deadline-time').html(confAbsDeadline.local().format('D MMM YYYY, h:mm:ss a'));
       }
+
       {% endif %}
       {% endfor %}
 

@@ -1,11 +1,11 @@
-title: Software Engineering Deadlines
+title: SA4S Deadlines
 description: Countdowns to top Software Engineering deadlines.
-author: Sivana Hamer, Imranur Rahman
+author: Sivana Hamer, Imranur Rahman, Shrikara A
 
-domain: "se-deadlines.github.io"
+domain: "sa4s-deadlines.github.io"
 baseurl: ""
 
-github_username: se-deadlines
-github_repo: se-deadlines.github.io
+github_username: sa4s-deadlines
+github_repo: sa4s-deadlines.github.io
 
 markdown: kramdown

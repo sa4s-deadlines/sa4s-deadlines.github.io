@@ -9,7 +9,7 @@ $(function() {
   {% assign conf_id = conf.name | append: conf.year | append: '-0' | slugify %}
   $('#{{ conf_id }} .timer').html("TBA");
   $('#{{ conf_id }} .deadline-time').html("TBA");
-  deadlineByConf["{{ conf_id }}"] = null;
+  deadlineByConf["{{ conf_id }}"] = moment.tz("3000-01-01", "Etc/GMT+12");
 
   {% else %}
   var rawDeadlines = {{ conf.deadline | jsonify }} || [];
@@ -29,12 +29,14 @@ $(function() {
     var deadline = moment.tz(rawDeadline, "Etc/GMT+12"); // Anywhere on Earth
     {% endif %}
 
-    // post-process date
-    if (deadline.minutes() === 0) {
-      deadline.subtract(1, 'seconds');
-    }
-    if (deadline.minutes() === 59) {
-      deadline.seconds(59);
+    if (deadline.isValid()) {
+      // post-process date
+      if (deadline.minutes() === 0) {
+        deadline.subtract(1, 'seconds');
+      }
+      if (deadline.minutes() === 59) {
+        deadline.seconds(59);
+      }
     }
     parsedDeadlines.push(deadline);
   }
@@ -42,12 +44,44 @@ $(function() {
   // the right parsed deadline
   parsedDeadlines.reverse();
 
+  // parse abstract deadlines in the same way as the deadlines
+  var rawAbsDeadlines = {{ conf.abstract_deadline | jsonify }} || [];
+  if (rawAbsDeadlines.constructor !== Array) {
+    rawAbsDeadlines = [rawAbsDeadlines];
+  }
+  var parsedAbsDeadlines = [];
+  while (rawAbsDeadlines.length > 0) {
+    var rawAbsDeadline = rawAbsDeadlines.pop();
+    // deal with year template in deadline
+    year = {{ conf.year }};
+    rawAbsDeadline = rawAbsDeadline.replace('%y', year).replace('%Y', year - 1);
+    // adjust date according to deadline timezone
+    {% if conf.timezone %}
+    var absDeadline = moment.tz(rawAbsDeadline, "{{ conf.timezone }}");
+    {% else %}
+    var absDeadline = moment.tz(rawAbsDeadline, "Etc/GMT+12"); // Anywhere on Earth
+    {% endif %}
+
+    // post-process date
+    if (absDeadline.minutes() === 0) {
+      absDeadline.subtract(1, 'seconds');
+    }
+    if (absDeadline.minutes() === 59) {
+      absDeadline.seconds(59);
+    }
+    parsedAbsDeadlines.push(absDeadline);
+  }
+  // due to pop before; we need to reverse such that the i index later matches
+  // the right parsed deadline
+  parsedAbsDeadlines.reverse();
+
   {% assign range_end = conf.deadline.size | minus: 1 %}
   {% for i in (0..range_end) %}
   {% assign conf_id = conf.name | append: conf.year | append: '-' | append: i | slugify %}
   var deadlineId = {{ i }};
   if (deadlineId < parsedDeadlines.length) {
     var confDeadline = parsedDeadlines[deadlineId];
+    var confAbsDeadline = parsedAbsDeadlines[deadlineId]
 
     // render countdown timer
     if (confDeadline) {
@@ -55,7 +89,7 @@ $(function() {
         return function(event) {
           diff = moment() - confDeadline
           if (diff <= 0) {
-             $(this).html(event.strftime('%D days %Hh %Mm %Ss'));
+            $(this).html(event.strftime('%D days %Hh %Mm %Ss'));
           } else {
             $(this).html(confDeadline.fromNow());
           }
@@ -69,6 +103,10 @@ $(function() {
       $('#{{ conf_id }} .deadline-time').html(confDeadline.local().format('D MMM YYYY, h:mm:ss a'));
       deadlineByConf["{{ conf_id }}"] = confDeadline;
     }
+    
+    if (confAbsDeadline) {
+      $('#{{ conf_id }} .abstract-deadline-time').html(confAbsDeadline.local().format('D MMM YYYY, h:mm:ss a'));
+    }
   } else {
     // TODO: hide the conf_id ?
   }
@@ -81,7 +119,13 @@ $(function() {
   var confs = $('.conf').detach();
   confs.sort(function(a, b) {
     var aDeadline = deadlineByConf[a.id];
+    if (!aDeadline.isValid()) {
+      return 1;
+    }
     var bDeadline = deadlineByConf[b.id];
+    if (!bDeadline.isValid()) {
+      return -1;
+    }
     var aDiff = today.diff(aDeadline);
     var bDiff = today.diff(bDeadline);
     if (aDiff < 0 && bDiff > 0) {
