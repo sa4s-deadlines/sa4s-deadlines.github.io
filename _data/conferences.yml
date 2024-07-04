@@ -804,3 +804,19 @@
   date: April 28 - April 29, 2025 with ICSE 2025
   place: Ottawa, Ontario, Canada
   tags: [CO, RPT]
+
+- name: ICSOC
+  description: International Conference on Service-Oriented Computing - Research Papers
+  year: 2024
+  link: https://icsoc2024.redcad.tn/call-research-papers.html
+  deadline: 
+  - "2024-07-10 23:59"
+  - "2024-07-24 23:59"
+  - "2024-09-27 23:59"
+  abstract_deadline:
+  - "2024-07-10 23:59"
+  date: December 3 - December 4, 2024
+  place: Tunis, Tunisia
+  note: Mandatory abstract deadline on March 15 (first deadline) and July 26 (second deadline) 2024.
+  comment: Abstract deadline on 10 July 2024 AoE
+  tags: [CO, RPT]
