@@ -820,3 +820,13 @@
   note: Mandatory abstract deadline on March 15 (first deadline) and July 26 (second deadline) 2024.
   comment: Abstract deadline on 10 July 2024 AoE
   tags: [CO, RPT]
+
+# IEEE Software Special Issues
+- name: IEEE Software SE on Green Clean Software Sustainability
+  description: This IEEE Software Special Theme issue aims to target both the green clean software, and the green through software dimensions, with special emphasis on the role played by green software engineering.
+  year: 2025
+  link: https://www.computer.org/digital-library/magazines/so/cfp-green-clean-software-sustainability
+  deadline: 
+  - "2025-05-01 23:59"
+  date: March/April 2026
+  tags: [JO]
