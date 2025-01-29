@@ -105,6 +105,17 @@
   place: Ottawa, Ontario, Canada
   tags: [WO]
 
+#ECSA
+- name: ECSA
+  description: European Conference on Software Architecture
+  year: 2025
+  link: https://conf.researchr.org/home/ecsa-2025
+  deadline: 
+  - "2025-03-21 23:59"
+  date: September 15 - 19, 2025
+  place: Limassol, Cyprus
+  tags: [CO]
+
 # ESEC/FSE
 - name: FSE
   description: International Conference on the Foundations of Software Engineering - Research Papers
