@@ -484,33 +484,32 @@
 
 - name: ASE-JF
   description: International Conference on Automated Software Engineering - Journal-first Papers
-  year: 2024
-  link: https://conf.researchr.org/track/ase-2024/ase-2024-journal-first-papers
+  year: 2025
+  link: https://conf.researchr.org/track/ase-2025/ase-2025-journal-first-track
   deadline: 
-  - "2024-07-02 23:59"
-  date: October 20-25, 2024
-  place: Sacramento, California, United States
+  - "2024-09-01 23:59"
+  date: November 16-20, 2025
+  place: Seoul, South Korea
   tags: [CO, JFT]
 
 - name: ASE-TD
   description: International Conference on Automated Software Engineering - Tool Demonstrations
-  year: 2024
-  link: https://conf.researchr.org/track/ase-2024/ase-2024-tool-demonstrations
+  year: 2025
+  link: https://conf.researchr.org/track/ase-2025/ase-2025-tool-demonstration-track
   deadline: 
-  - "2024-06-26 23:59"
-  date: October 27-November 1, 2024
-  place: Sacramento, California, United States
+  - "2024-07-23 23:59"
+  date: November 16-20, 2025
+  place: Seoul, South Korea
   tags: [CO, TOT]
 
 - name: ASE-NIER
   description: International Conference on Automated Software Engineering - New Ideas and Emerging Results
-  year: 2024
-  link: https://conf.researchr.org/track/ase-2024/ase-2024-nier-track
+  year: 2025
+  link: https://conf.researchr.org/track/ase-2025/ase-2025-nier-track
   deadline: 
-  - "2024-06-17 23:59"
-  date: October 27-November 1, 2024
-  place: Sacramento, California, United States
-  note: Mandatory abstract deadline on June 14 2024.
+  - "2024-07-12 23:59"
+  date: November 16-20, 2025
+  place: Seoul, South Korea
   tags: [CO, NIER]
 
 - name: ASE-SRC
