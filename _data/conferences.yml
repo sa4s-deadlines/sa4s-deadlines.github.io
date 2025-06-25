@@ -18,42 +18,42 @@
 
 - name: ICSE-SEIP
   description: International Conference on Software Engineering - Software Engineering in Practice
-  year: 2025
-  link: https://conf.researchr.org/track/icse-2025/icse-2025-software-engineering-in-practice
+  year: 2026
+  link: https://conf.researchr.org/track/icse-2026/icse-2026-software-engineering-in-practice
   deadline: 
-  - "2024-10-10 23:59"
-  date: April 27 - May 3, 2025
-  place: Ottawa, Ontario, Canada
+  - "2025-09-29 23:59"
+  date: April 12 - 18, 2026
+  place: Rio De Janeiro, Brazil
   tags: [CO, IPT]
 
 - name: ICSE-SEIS
   description: International Conference on Software Engineering - Software Engineering in Society
-  year: 2025
-  link: https://conf.researchr.org/track/icse-2025/icse-2025-software-engineering-in-society
+  year: 2026
+  link: https://conf.researchr.org/track/icse-2026/icse-2026-software-engineering-in-society
   deadline: 
-  - "2024-10-10 23:59"
-  date: April 27 - May 3, 2025
-  place: Ottawa, Ontario, Canada
+  - "2025-09-29 23:59"
+  date: April 12 - 18, 2026
+  place: Rio De Janeiro, Brazil
   tags: [CO, SOT]
 
 - name: ICSE-NIER
   description: International Conference on Software Engineering - New Ideas and Emerging Results
-  year: 2025
-  link: https://conf.researchr.org/track/icse-2025/icse-2025-new-ideas-and-emerging-results
+  year: 2026
+  link: https://conf.researchr.org/track/icse-2026/icse-2026-nier
   deadline: 
-  - "2024-10-10 23:59"
-  date: April 27 - May 3, 2025
-  place: Ottawa, Ontario, Canada
+  - "2025-09-29 23:59"
+  date: April 12 - 18, 2026
+  place: Rio De Janeiro, Brazil
   tags: [CO, NIER]
 
 - name: ICSE-JF
   description: International Conference on Software Engineering - Journal-first Papers
-  year: 2025
-  link: https://conf.researchr.org/track/icse-2025/icse-2025-journal-first-papers
+  year: 2026
+  link: https://conf.researchr.org/track/icse-2026/icse-2026-journal-first-papers
   deadline: 
-  - "2024-10-21 23:59"
-  date: April 26 - May 4, 2025
-  place: Ottawa, Ontario, Canada
+  - "2025-10-20 23:59"
+  date: April 12 - 18, 2026
+  place: Rio De Janeiro, Brazil
   tags: [CO, JFT]
 
 - name: ICSE-DS
@@ -68,12 +68,12 @@
 
 - name: ICSE-T&TB
   description: International Conference on Software Engineering - Tutorials and Technical Briefings
-  year: 2025
-  link: https://conf.researchr.org/track/icse-2025/icse-2025-tutorials
+  year: 2026
+  link: https://conf.researchr.org/track/icse-2026/icse-2026-tutorials
   deadline: 
-  - "2024-10-10 23:59"
-  date: April 26 - May 4, 2025
-  place: Ottawa, Ontario, Canada
+  - "2025-09-29 23:59"
+  date: April 12 - 18, 2026
+  place: Rio De Janeiro, Brazil
   tags: [CO, TTBT]
 
 - name: ICSE-NFS
@@ -97,12 +97,12 @@
 
 - name: SMeW
   description: Student Mentoring Workshop
-  year: 2025
-  link: https://conf.researchr.org/track/icse-2025/icse-2025-smew---student-mentoring-workshop
+  year: 2026
+  link: https://conf.researchr.org/track/icse-2026/icse-2026-smew---student-mentoring-workshop
   deadline: 
   - "2024-10-21 23:59"
-  date: April 26 - May 4, 2025 with ICSE 2025
-  place: Ottawa, Ontario, Canada
+  date: April 12 - 18, 2026 with ICSE 2026
+  place: Rio De Janeiro, Brazil
   tags: [WO]
 
 #ECSA
@@ -116,19 +116,53 @@
   place: Limassol, Cyprus
   tags: [CO]
 
+# ICSA
+- name: ICSA
+  description: International Conference on Software Architecture - Research Track
+  year: 2026
+  link: https://conf.researchr.org/track/icsa-2026/icsa-2026-papers
+  deadline: 
+  - "2025-11-15 23:59"
+  abstract_deadline: 
+  - "2025-11-08 23:59"
+  date: June 22 - 26, 2026
+  place: Amsterdam, Netherlands
+  note: Mandatory abstract deadline on Nov 08 2026.
+  tags: [CO, RPT]
+
+  - name: ICSA - NIER
+  description: International Conference on Software Architecture - New and Emerging Ideas
+  year: 2026
+  link: https://conf.researchr.org/track/icsa-2026/icsa-2026-new-and-emerging-ideas
+  deadline: 
+  - "2025-12-20 23:59"
+  date: June 22 - 26, 2026
+  place: Amsterdam, Netherlands
+  tags: [CO, NIER]
+
+  - name: ICSA - SAIP
+  description: International Conference on Software Architecture - Software Arcjitecture in Practice
+  year: 2026
+  link: https://conf.researchr.org/track/icsa-2026/icsa-2026-software-architecture-in-practice-track
+  deadline: 
+  - "2025-12-20 23:59"
+  date: June 22 - 26, 2026
+  place: Amsterdam, Netherlands
+  tags: [CO, SAIP]
+  
 # ESEC/FSE
 - name: FSE
   description: International Conference on the Foundations of Software Engineering - Research Papers
-  year: 2025
-  link: https://conf.researchr.org/track/fse-2025/fse-2025-research-papers
+  year: 2026
+  link: https://conf.researchr.org/track/fse-2026/fse-2026-research-papers
   deadline: 
-  - "2024-09-12 23:59"
-  - "2024-09-05 23:59"
+  - "2024-09-11 23:59"
+  - "2024-09-04 23:59"
   abstract_deadline: 
-  - "2024-09-05 23:59"
-  date: July 23 - 27, 2025
-  place: Trondheim, Norway
-  note: Mandatory abstract deadline on September 5 2024.
+  - "2025-09-04 23:59"
+  date: July 5 - 9, 2026
+  place: Montreal, Canada
+  note: Mandatory abstract deadline on September 4 2024.
   tags: [CO,RPT]
   ranking: A*
   comment: The abstract deadline here refers to paper registration
@@ -745,26 +779,45 @@
   place: Tsukuba, Japan
   tags: [CO, DOS]
 
-#SANER
+# SANER
 - name: SANER
   description: International Conference on Software Analysis, Evolution and Reengineering - Research Papers
-  year: 2025
-  ink: https://conf.researchr.org/track/saner-2025/saner-2025-papers
+  year: 2026
+  link: https://conf.researchr.org/track/saner-2026/saner-2026-papers
   deadline: 
-  - "2024-10-11 23:59"
-  date: March 4 - 7, 2025
-  place: Montréal, Québec, Canada
-  note: Mandatory abstract deadline on October 4 2024.
+  - "2025-10-16 23:59"
+  abstract_deadline: 
+  - "2025-10-09 23:59"
+  date: March 17 - 20, 2026
+  place: Limassol, Cyprus
+  note: Mandatory abstract deadline on October 9 2025.
   tags: [CO, RPT]
 
-#CHASEs
+- name: SANER
+  description: International Conference on Software Analysis, Evolution and Reengineering - Short Papers and Posters Track
+  year: 2026
+  link: https://conf.researchr.org/track/saner-2026/saner-2026-short-papers-and-posters-track
+  deadline: 
+  - "2025-11-17 23:59"
+  abstract_deadline: 
+  - "2025-11-10 23:59"
+  date: March 17 - 20, 2026
+  place: Limassol, Cyprus
+  note: Mandatory abstract deadline on November 10 2025.
+  tags: [CO, SPT]
+  
+# CHASEs
 - name: CHASE
   description: International Conference on Cooperative and Human Aspects of Software Engineering - Full Papers
-  year: 2025
-  ink: https://conf.researchr.org/track/chase-2025/chase-2025-papers
-  deadline: ["TBA"]
-  date: April 27 - May 3, 2025 with ICSE 2025
-  place: Ottawa, Ontario, Canada
+  year: 2026
+  ink: https://conf.researchr.org/track/chase-2026/chase-2026-papers
+  deadline: 
+  - "2025-10-23 23:59"
+  abstract_deadline: 
+  - "2025-10-16 23:59"
+  date: April 12 - 13, 2026 with ICSE 2026
+  place: Rio de Janeiro, Brazil
+  note: Mandatory abstract deadline on Oct 16 2025.
   tags: [CO, RPT]
 
 - name: CHASE-SP
@@ -785,27 +838,47 @@
   place: Ottawa, Ontario, Canada
   tags: [CO, JFT]
 
-#SEAMS
+# CAIN
+- name: CAIN
+  description: International Conference on AI Engineering - Research Track
+  year: 2026
+  link: https://conf.researchr.org/track/cain-2026/cain-2026-call-for-papers
+  deadline: 
+  - "2025-10-23 23:59"
+  abstract_deadline: 
+  - "2025-10-16 23:59"
+  date: April 12 - 13, 2026 with ICSE 2026
+  place: Rio de Janeiro, Brazil
+  note: Mandatory abstract deadline on Oct 16 2025.
+  tags: [CO, RPT]
+
+# SEAMS
 - name: SEAMS
   description: International Conference on Software Engineering for Adaptive and Self-Managing Systems- Research Track
-  year: 2025
-  ink: https://conf.researchr.org/track/seams-2025/seams-2025-research-track
-  deadline: ["TBA"]
-  date: April 27 - May 3, 2025 with ICSE 2025
-  place: Ottawa, Ontario, Canada
+  year: 2026
+  link: https://conf.researchr.org/track/seams-2026/seams-2026-research-track
+  deadline: 
+  - "2025-10-16 23:59"
+  abstract_deadline: 
+  - "2025-10-16 23:59"
+  date: April 12 - 13, 2026 with ICSE 2026
+  place: Rio de Janeiro, Brazil
+  note: Mandatory abstract deadline on Oct 16 2025.
   tags: [CO, RPT]
 
 
 - name: SEAMS-AT
   description: International Conference on Software Engineering for Adaptive and Self-Managing Systems - Artifact Track
-  year: 2025
-  link: https://conf.researchr.org/track/seams-2025/seams-2025-artifact-track
-  deadline: ["TBA"]
-  date: April 27 - May 3, 2025 with ICSE 2025
-  place: Ottawa, Ontario, Canada
+  year: 2026
+  link: https://conf.researchr.org/track/seams-2026/seams-2026-artifact-track
+  deadline: 
+  - "2025-12-11 23:59"
+  date: April 12 - 13, 2026 with ICSE 2026
+  place: Rio de Janeiro, Brazil
+  note: Mandatory abstract deadline on Dec 4 2025.
   tags: [CO, ART]
 
-#MSR
+# MSR
 - name: MSR
   description: Mining Software Repositories - Research Papers
   year: 2025
@@ -815,20 +888,30 @@
   place: Ottawa, Ontario, Canada
   tags: [CO, RPT]
 
+#ISEC
+- name: ISEC
+  description: Innovations in Software Engineering Conference -  Research Papers
+  year: 2026
+  link: https://conf.researchr.org/track/isec-2026/isec-2026-research-papers
+  deadline: 
+  - "2025-07-18 23:59"
+  - "2025-09-05 23:59"
+  date: February 19 - 21, 2026
+  place: IIS(Deemed to be University), Jaipur
+  tags: [CO, RPT]
+  
+# ICSOC
 - name: ICSOC
   description: International Conference on Service-Oriented Computing - Research Papers
-  year: 2024
-  link: https://icsoc2024.redcad.tn/call-research-papers.html
+  year: 2026
+  link: https://icsoc2025.hit.edu.cn/19949/list.htm
   deadline: 
-  - "2024-07-10 23:59"
-  - "2024-07-24 23:59"
-  - "2024-09-27 23:59"
+  - "2025-07-14 23:59"
   abstract_deadline:
-  - "2024-07-10 23:59"
-  date: December 3 - December 4, 2024
-  place: Tunis, Tunisia
-  note: Mandatory abstract deadline on March 15 (first deadline) and July 26 (second deadline) 2024.
-  comment: Abstract deadline on 10 July 2024 AoE
+  - "2025-07-07 23:59"
+  date: December 1 - December 4, 2025
+  place: Shenzhen, China
+  note: Mandatory abstract deadline on July 07 2025.
   tags: [CO, RPT]
 
 # IEEE Software Special Issues
