@@ -113,6 +113,40 @@
   place: Limassol, Cyprus
   tags: [CO]
 
+# ICSA
+- name: ICSA
+  description: International Conference on Software Architecture - Research Track
+  year: 2026
+  link: https://conf.researchr.org/track/icsa-2026/icsa-2026-papers
+  deadline: 
+  - "2025-11-15 23:59"
+  abstract_deadline: 
+  - "2025-11-08 23:59"
+  date: June 22 - 26, 2026
+  place: Amsterdam, Netherlands
+  note: Mandatory abstract deadline on Nov 08 2026.
+  tags: [CO, RPT]
+
+- name: ICSA - NIER
+  description: International Conference on Software Architecture - New and Emerging Ideas
+  year: 2026
+  link: https://conf.researchr.org/track/icsa-2026/icsa-2026-new-and-emerging-ideas
+  deadline: 
+  - "2025-12-20 23:59"
+  date: June 22 - 26, 2026
+  place: Amsterdam, Netherlands
+  tags: [CO, NIER]
+
+- name: ICSA - SAIP
+  description: International Conference on Software Architecture - Software Arcjitecture in Practice
+  year: 2026
+  link: https://conf.researchr.org/track/icsa-2026/icsa-2026-software-architecture-in-practice-track
+  deadline: 
+  - "2025-12-20 23:59"
+  date: June 22 - 26, 2026
+  place: Amsterdam, Netherlands
+  tags: [CO, SAIP]
+  
 # ESEC/FSE
 - name: FSE
   description: International Conference on the Foundations of Software Engineering - Research Papers
