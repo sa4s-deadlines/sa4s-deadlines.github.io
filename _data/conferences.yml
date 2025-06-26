@@ -1331,18 +1331,6 @@
   place: Seoul, South Korea
   tags: [CO, RPT]
 
-#ISEC
-- name: ISEC
-  description: Innovations in Software Engineering Conference - Research Paper Track
-  year: 2026
-  link: https://conf.researchr.org/track/isec-2026/isec-2026-research-papers
-  deadline:
-   - "2025-07-18 23:59"
-   - "2025-09-05 23:59"
-  date: February 19 - February 21, 2026
-  place: IIS(deemed to be university), Jaipur, India
-  tags: [CO, RPT]
-
 #EASE
 - name: EASE-SPER
   description: The International Conference on Evaluation and Assessment in Software Engineering (EASE) - Short Papers, Emerging Results
