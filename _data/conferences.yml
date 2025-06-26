@@ -130,7 +130,7 @@
   note: Mandatory abstract deadline on Nov 08 2026.
   tags: [CO, RPT]
 
-  - name: ICSA - NIER
+- name: ICSA - NIER
   description: International Conference on Software Architecture - New and Emerging Ideas
   year: 2026
   link: https://conf.researchr.org/track/icsa-2026/icsa-2026-new-and-emerging-ideas
@@ -140,7 +140,7 @@
   place: Amsterdam, Netherlands
   tags: [CO, NIER]
 
-  - name: ICSA - SAIP
+- name: ICSA - SAIP
   description: International Conference on Software Architecture - Software Arcjitecture in Practice
   year: 2026
   link: https://conf.researchr.org/track/icsa-2026/icsa-2026-software-architecture-in-practice-track
