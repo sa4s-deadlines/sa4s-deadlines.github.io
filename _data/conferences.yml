@@ -776,6 +776,53 @@
   place: Taipei, Taiwan
   tags: [WO, RPT, IPT]
 
+# ICSAs
+- name: ICSA
+  description: International Conference on Software Architecture - Research Track
+  year: 2026
+  link: https://conf.researchr.org/track/icsa-2026/icsa-2026-papers
+  deadline: 
+  - "2025-12-05 23:59"
+  abstract_dealine:
+  - "2025-11-28 23:59"
+  date: June 22-26, 2026
+  place: Amsterdam, Netherlands
+  note: Mandatory abstract deadline on November 28, 2025.
+  tags: [CO, RPT]
+
+- name: ICSA - SAIP
+  description: International Conference on Software Architecture - Software Architecture in Practice Track
+  year: 2026
+  link: https://conf.researchr.org/track/icsa-2026/icsa-2026-software-architecture-in-practice-track
+  deadline: 
+  - "2025-12-05 23:59"
+  abstract_dealine:
+  - "2025-11-28 23:59"
+  date: June 22-26, 2026
+  place: Amsterdam, Netherlands
+  note: Mandatory abstract deadline on November 28, 2025.
+  tags: [CO, SAIP]
+  
+- name: ICSA - NEMI
+  description: International Conference on Software Architecture - New and Emerging Ideas Track
+  year: 2026
+  link: https://conf.researchr.org/track/icsa-2026/icsa-2026-new-and-emerging-ideas
+  deadline: 
+  - "2026-02-13 23:59"
+  date: June 22-26, 2026
+  place: Amsterdam, Netherlands
+  tags: [CO, NEMI]
+ 
+- name: ICSA - posters-track
+  description: International Conference on Software Architecture - Posters Track
+  year: 2026
+  link: https://conf.researchr.org/track/icsa-2026/icsa-2026-poster-track
+  deadline: 
+  - "2026-02-13 23:59"
+  date: June 22-26, 2026
+  place: Amsterdam, Netherlands
+  tags: [CO, PT] 
+  
 # ICSMEs
 - name: ICSME
   description: International Conference on Software Maintenance and Evolution - Research Track
