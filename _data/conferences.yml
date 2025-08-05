@@ -1123,7 +1123,7 @@
   - "2025-10-23 23:59"
   date: April 12 - April 18, 2026 with ICSE 2026
   place: Rio de Janeiro, Brazil
-  note: Mandatory abstract deadline on October 16 2025.
+  note: Mandatory abstract deadline on October 16 2024.
   tags: [CO, RPT]
 
 
@@ -1135,7 +1135,7 @@
   - "2025-12-11 23:59"
   date: April 12 - April 18, 2026 with ICSE 2026
   place: Rio de Janeiro, Brazil
-  note: Mandatory abstract deadline on December 4 2025.
+  note: Mandatory abstract deadline on December 4 2024.
   tags: [CO, ART]
 
 - name: SEAMS-JF
@@ -1156,7 +1156,7 @@
   - "2025-10-23 23:59"
   date: April 12 - April 18, 2026 with ICSE 2026
   place: Rio de Janeiro, Brazil
-  note: Mandatory abstract deadline October 20 2025.
+  note: Mandatory abstract deadline TBA.
   tags: [CO, RPT]
 
 - name: MSR-DTST
@@ -1172,8 +1172,8 @@
 
 - name: MSR-IT
   description: Mining Software Repositories - Industry Track
-  year: 2026
-  link: https://2026.msrconf.org/track/msr-2026-industry-track
+  year: 2025
+  link: https://2025.msrconf.org/track/msr-2025-industry-track
   deadline: 
   - "2025-10-23 23:59"
   date: April 12 - April 18, 2026 with ICSE 2026
@@ -1183,8 +1183,8 @@
 
 - name: MSR-RR
   description: Mining Software Repositories - Registered Reports
-  year: 2026
-  link: https://2026.msrconf.org/track/msr-2026-registered-reports
+  year: 2025
+  link: https://2025.msrconf.org/track/msr-2025-registered-reports
   deadline: 
   - "2025-12-14 23:59"
   date: April 12 - April 18, 2026 with ICSE 2026
@@ -1211,7 +1211,7 @@
   link: https://conf.researchr.org/home/cain-2026
   deadline: 
   - "2025-10-23 23:59"
-  date: April 12 - April 13, 2026 with ICSE 2026
+  date: April 12 - April 18, 2026 with ICSE 2026
   place: Rio de Janeiro, Brazil
   note: Recommended abstract deadline on October 16 2025.
   tags: [CO, RPT]
