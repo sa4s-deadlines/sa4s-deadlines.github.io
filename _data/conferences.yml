@@ -122,6 +122,16 @@
   place: Rio de Janeiro, Brazil
   tags: [WO]
   
+- name: AGENT 
+  description: International Workshop on Agentic Engineering
+  year: 2026
+  link: https://conf.researchr.org/home/icse-2026/agent-2026
+  deadline: 
+  - "2025-10-20 23:59"
+  date: April 12 - April 18, 2026
+  place: Rio de Janeiro, Brazil
+  tags: [WO]  
+  
 - name: AIOps
   description: International Workshop on Cloud Intelligence / AIOps
   year: 2025
