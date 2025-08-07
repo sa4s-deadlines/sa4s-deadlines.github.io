@@ -468,12 +468,12 @@
 
 - name: FSE-IP
   description: International Conference on the Foundations of Software Engineering - Industry Papers
-  year: 2025
-  link: https://conf.researchr.org/track/fse-2025/fse-2025-industry-papers
+  year: 2026
+  link: https://conf.researchr.org/track/fse-2026/fse-2026-industry-papers
   deadline: 
-  - "2025-01-15 23:59"
-  date: July 23 - 27, 2025
-  place: Trondheim, Norway
+  - "2026-01-22 23:59"
+  date: July 6 - 9, 2026
+  place: Montreal, Canada
   tags: [CO,IPT]
 
 - name: FSE-IVR
