@@ -1303,32 +1303,12 @@
  - name: CAIN-IT
   description: International Conference on AI Engineering - Software Engineering for AIg - Industry Track
   year: 2026
-  link: https://conf.researchr.org/track/cain-2026/cain-2026-industry-track
+  link: https://conf.researchr.org/committee/TechDebt-2026/TechDebt-2026-industry-track-industry-track-committee
   deadline: 
-  - "2025-11-18 23:59"
-  date: April 12 - April 13, 2026 with ICSE 2026
+  - "2026-01-16 23:59"
+  date: April 12 - April 18, 2026 with ICSE 2026
   place: Rio de Janeiro, Brazil
   tags: [CO, IPT]
-
-- name: CAIN-JF
-  description: International Conference on AI Engineering - Software Engineering for AIg - Journal First Track
-  year: 2026
-  link: https://conf.researchr.org/track/cain-2026/cain-2026-journal-first
-  deadline: 
-  - "2025-11-18 23:59"
-  date: April 12 - April 13, 2026 with ICSE 2026
-  place: Rio de Janeiro, Brazil
-  tags: [CO, JFT]
-
-- name: CAIN-Posters
-  description: International Conference on AI Engineering - Software Engineering for AIg - Posters Track
-  year: 2026
-  link: https://conf.researchr.org/track/cain-2026/cain-2026-call-for-posters
-  deadline:
-   - "2025-11-18 23:59"
-  date: April 12 - April 13, 2026 with ICSE 2026
-  place: Rio de Janeiro, Brazil
-  tags: [CO, POS]
 
 #TechDebt
 
@@ -1344,7 +1324,7 @@
   tags: [CO, RPT]
 
 - name: TechDebt-JF
-  description: International Conference on Technical Debt - Journal First Track
+  description: International Conference on Technical - Journal First Track
   year: 2026
   link: https://conf.researchr.org/track/TechDebt-2026/TechDebt-2026-journal-first
   deadline: ["TBA"]
@@ -1353,7 +1333,7 @@
   tags: [CO, JFT]
 
 - name: TechDebt-IT
-  description: International Conference on Technical Debt - Industry Track
+  description: International Conference on Technical - Industry Track
   year: 2026
   link: https://conf.researchr.org/committee/TechDebt-2026/TechDebt-2026-industry-track-industry-track-committee
   deadline: 
