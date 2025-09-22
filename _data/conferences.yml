@@ -254,12 +254,12 @@
 
 - name: GREENS
   description: International Workshop on Green and Sustainable Software
-  year: 2026
+  year: 2025
   link: https://greensworkshop.github.io/
   deadline: 
-  - "2025-10-20 23:59"
-  date: April 14, 2026 with ICSE 2026
-  place: Rio de Janeiro, Brazil
+  - "2024-11-11 23:59"
+  date: April 26 - May 4, 2025 with ICSE 2025
+  place: Ottawa, Ontario, Canada
   tags: [WO]
 
 - name: IDE
@@ -284,12 +284,12 @@
 
 - name: LLM4Code
   description: International Workshop on Large Language Model For Code
-  year: 2026
+  year: 2025
   link: https://llm4code.github.io/
   deadline: 
-  - "2025-10-20 23:59"
-  date: April 12, 2026 with ICSE 2026
-  place: Rio de Janeiro, Brazil
+  - "2024-11-18 23:59"
+  date: April 26 - May 4, 2025 with ICSE 2025
+  place: Ottawa, Ontario, Canada
   tags: [WO]
 
 - name: MO2RE
@@ -344,12 +344,13 @@
 
 - name: RAISE
   description: International Workshop on Requirements engineering for AI-powered SoftwarE
-  year: 2026
-  link: https://conf.researchr.org/home/icse-2026/raie-2026
+  year: 2025
+  link: https://conf.researchr.org/home/icse-2025/raise-2025
   deadline: 
-  - "2025-10-20 23:59"
-  date: April 12, 2026 with ICSE 2026
-  place: Rio de Janeiro, Brazil
+  - "2024-11-11 23:59"
+  date: April 26 - May 4, 2025 with ICSE 2025
+  note: Abstract deadline on November 4 2024.
+  place: Ottawa, Ontario, Canada
   tags: [WO]
 
 - name: RoSE
