@@ -1293,17 +1293,6 @@
   note: Recommended abstract deadline on January 19, 2025
   tags: [CO, RPT]
 
-- name: EASE-RPT
-  description: The International Conference on Evaluation and Assessment in Software Engineering (EASE) - Research Paper Track
-  year: 2025
-  link: https://conf.researchr.org/home/ease-2025
-  deadline:
-   - "2025-01-19 23:59"
-  date: June 17 - June 20, 2025
-  place: Istanbul, Turkey
-  note: Abstract deadline on January 12, 2025
-  tags: [CO, RPT]
-
 - name: SEAA-RPT
   description: The 51st Euromicro Conference Series on Software Engineering and Advanced Applications (SEAA) - Research Paper Track
   year: 2025
@@ -1411,65 +1400,77 @@
   tags: [CO, RPT]
   
 #EASE
+- name: EASE-RPT
+  description: The International Conference on Evaluation and Assessment in Software Engineering (EASE) - Research Paper Track
+  year: 2026
+  link: https://conf.researchr.org/track/ease-2026/ease-2026-research-papers
+  deadline:
+   - "2026-01-23 23:59"
+  date: June 9 - June 12, 2026
+  place: Glasgow, United Kingdom
+  note: Abstract deadline on January 16, 2026
+  tags: [CO, RPT]
+  
 - name: EASE-SPER
   description: The International Conference on Evaluation and Assessment in Software Engineering (EASE) - Short Papers, Emerging Results
-  year: 2025
-  link: https://conf.researchr.org/track/ease-2025/ease-2025-short-papers--emerging-results
+  year: 2026
+  link: https://conf.researchr.org/track/ease-2026/ease-2026-short-papers-and-emerging-results
   deadline:
-   - "2025-03-16 23:59"
-  date: June 17 - June 20, 2025
-  place: Istanbul, Turkey
+   - "2026-03-02 23:59"
+  date: June 9 - June 12, 2026
+  place: Glasgow, United Kingdom
+  note: Abstract deadline on February 23, 2026
   tags: [CO, SPT]
 
 - name: EASE-IP
   description: The International Conference on Evaluation and Assessment in Software Engineering (EASE) - Industry Papers
-  year: 2025
-  link: https://conf.researchr.org/track/ease-2025/ease-2025-industry-papers
+  year: 2026
+  link: https://conf.researchr.org/track/ease-2026/ease-2026-industry-papers
   deadline:
-   - "2025-03-16 23:59"
-  date: June 17 - June 20, 2025
-  place: Istanbul, Turkey
-  note: Abstract deadline on March 9, 2025
+   - "2026-03-02 23:59"
+  date: June 9 - June 12, 2026
+  place: Glasgow, United Kingdom
+  note: Abstract deadline on February 23, 2026
   tags: [CO, IPT]
 
 - name: EASE-PV
   description: The International Conference on Evaluation and Assessment in Software Engineering (EASE) - Posters and Vision
-  year: 2025
-  link: https://conf.researchr.org/track/ease-2025/ease-2025-posters-and-vision
+  year: 2026
+  link: https://conf.researchr.org/track/ease-2026/ease-2026-posters-and-vision
   deadline:
-   - "2025-03-16 23:59"
-  date: June 17 - June 20, 2025
-  place: Istanbul, Turkey
+   - "2026-03-02 23:59"
+  date: June 9 - June 12, 2026
+  place: Glasgow, United Kingdom
   tags: [CO, POS]
 
 - name: EASE-JF
   description: The International Conference on Evaluation and Assessment in Software Engineering (EASE) - Journal-first
-  year: 2025
-  link: https://conf.researchr.org/track/ease-2025/ease-2025-journal-first
+  year: 2026
+  link: https://conf.researchr.org/track/ease-2026/ease-2026-journal-first
   deadline:
-   - "2025-03-20 23:59"
-  date: June 17 - June 20, 2025
-  place: Istanbul, Turkey
+   - "2026-03-06 23:59"
+  date: June 9 - June 12, 2026
+  place: Glasgow, United Kingdom
   tags: [CO, JFT]
 
 - name: EASE-DS
   description: The International Conference on Evaluation and Assessment in Software Engineering (EASE) - Doctoral Symposium
-  year: 2025
-  link: https://conf.researchr.org/track/ease-2025/ease-2025-doctoral-symposium
+  year: 2026
+  link: https://conf.researchr.org/track/ease-2026/ease-2026-doctoral-symposium
   deadline:
-   - "2025-03-10 23:59"
-  date: June 17 - June 20, 2025
-  place: Istanbul, Turkey
+   - "2026-03-02 23:59"
+  date: June 9 - June 12, 2026
+  place: Glasgow, United Kingdom
   tags: [CO, DOS]
 
 - name: EASE-AID
   description: The International Conference on Evaluation and Assessment in Software Engineering (EASE) - AI Models / Data
-  year: 2025
-  link: https://conf.researchr.org/track/ease-2025/ease-2025-ai-models---data
+  year: 2026
+  link: https://conf.researchr.org/track/ease-2026/ease-2026-ai-models---data
   deadline:
-   - "2025-03-16 23:59"
-  date: June 17 - June 20, 2025
-  place: Istanbul, Turkey
+   - "2025-03-02 23:59"
+  date: June 9 - June 12, 2026
+  place: Glasgow, United Kingdom
   tags: [CO, DB]
 
 # IST
