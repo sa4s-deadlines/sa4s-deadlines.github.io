@@ -254,12 +254,12 @@
 
 - name: GREENS
   description: International Workshop on Green and Sustainable Software
-  year: 2026
+  year: 2025
   link: https://greensworkshop.github.io/
   deadline: 
-  - "2025-10-20 23:59"
-  date: April 14, 2026 with ICSE 2026
-  place: Rio de Janeiro, Brazil
+  - "2024-11-11 23:59"
+  date: April 26 - May 4, 2025 with ICSE 2025
+  place: Ottawa, Ontario, Canada
   tags: [WO]
 
 - name: IDE
@@ -284,12 +284,12 @@
 
 - name: LLM4Code
   description: International Workshop on Large Language Model For Code
-  year: 2026
+  year: 2025
   link: https://llm4code.github.io/
   deadline: 
-  - "2025-10-20 23:59"
-  date: April 12, 2026 with ICSE 2026
-  place: Rio de Janeiro, Brazil
+  - "2024-11-18 23:59"
+  date: April 26 - May 4, 2025 with ICSE 2025
+  place: Ottawa, Ontario, Canada
   tags: [WO]
 
 - name: MO2RE
@@ -334,12 +334,12 @@
 
 - name: RAIE
   description: International Workshop on Responsible AI Engineering
-  year: 2026
-  link: https://conf.researchr.org/home/icse-2026/raie-2026
+  year: 2025
+  link: https://raiengineering.github.io/RAIE-Series/RAIE2025/
   deadline: 
-  - "2025-10-20 23:59"
-  date: April 12, 2026 with ICSE 2026
-  place: Rio de Janeiro, Brazil
+  - "2024-11-11 23:59"
+  date: April 26 - May 4, 2025 with ICSE 2025
+  place: Ottawa, Ontario, Canada
   tags: [WO]
 
 - name: RAISE
@@ -1299,37 +1299,7 @@
   date: April 12 - April 13, 2026 with ICSE 2026
   place: Rio de Janeiro, Brazil
   tags: [CO, DOS]
-
-- name: CAIN-IT
-  description: International Conference on AI Engineering - Software Engineering for AIg - Industry Track
-  year: 2026
-  link: https://conf.researchr.org/track/cain-2026/cain-2026-industry-track
-  deadline: 
-  - "2025-11-18 23:59"
-  date: April 12 - April 13, 2026 with ICSE 2026
-  place: Rio de Janeiro, Brazil
-  tags: [CO, IPT]
-  
-- name: CAIN-JF
-  description: International Conference on AI Engineering - Software Engineering for AIg - Journal First Track
-  year: 2026
-  link: https://conf.researchr.org/track/cain-2026/cain-2026-journal-first
-  deadline: 
-  - "2025-11-18 23:59"
-  date: April 12 - April 13, 2026 with ICSE 2026
-  place: Rio de Janeiro, Brazil
-  tags: [CO, JFT]
-
-- name: CAIN-Posters
-  description: International Conference on AI Engineering - Software Engineering for AIg - Posters Track
-  year: 2026
-  link: https://conf.researchr.org/track/cain-2026/cain-2026-call-for-posters
-  deadline:
-   - "2025-11-18 23:59"
-  date: April 12 - April 13, 2026 with ICSE 2026
-  place: Rio de Janeiro, Brazil
-  tags: [CO, POS]
-  
+ 
 #TechDebt
 
 - name: TechDebt
@@ -1344,7 +1314,7 @@
   tags: [CO, RPT]
 
 - name: TechDebt-JF
-  description: International Conference on Technical Debt - Journal First Track
+  description: International Conference on Technical - Journal First Track
   year: 2026
   link: https://conf.researchr.org/track/TechDebt-2026/TechDebt-2026-journal-first
   deadline: ["TBA"]
@@ -1353,7 +1323,7 @@
   tags: [CO, JFT]
 
 - name: TechDebt-IT
-  description: International Conference on Technical Debt - Industry Track
+  description: International Conference on Technical - Industry Track
   year: 2026
   link: https://conf.researchr.org/committee/TechDebt-2026/TechDebt-2026-industry-track-industry-track-committee
   deadline: 
