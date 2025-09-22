@@ -488,12 +488,12 @@
 
 - name: FSE-JF
   description: International Conference on the Foundations of Software Engineering - Journal First Papers 
-  year: 2025
-  link: https://conf.researchr.org/track/fse-2025/fse-2025-journal-first
+  year: 2026
+  link: https://conf.researchr.org/track/fse-2026/fse-2026-journal-first
   deadline: 
-  - "2025-03-04 23:59"
-  date: July 23 - 27, 2025
-  place: Trondheim, Norway
+  - "2026-02-25 23:59"
+  date: July 6 - 9, 2026
+  place: Montreal, Canada
   tags: [CO, JFT]
 
 - name: SE 2030
@@ -832,6 +832,79 @@
   place: Amsterdam, Netherlands
   tags: [CO, PT] 
   
+# ECSAs
+- name: ECSA
+  description: European Conference on Software Architecture - Technical Track
+  year: 2026
+  link: https://conf.researchr.org/track/ecsa-2026/ecsa-2026-technical-track
+  deadline: 
+  - "2026-03-20 23:59"
+  abstract_deadline:
+  - "2026-03-13 23:59"
+  date: September 7-11, 2026
+  place: Bolzano, Italy
+  note: Mandatory abstract deadline on March 13, 2026.
+  tags: [CO, RPT]
+
+- name: ECSA - IT
+  description: European Conference on Software Architecture - Industrial Track
+  year: 2026
+  link: https://conf.researchr.org/track/ecsa-2026/ecsa-2026-industrial-track
+  deadline: 
+  - "2026-05-01 23:59"
+  abstract_deadline:
+  - "2026-04-24 23:59"
+  date: September 7-11, 2026
+  place: Bolzano, Italy
+  note: Mandatory abstract deadline on April 24, 2026.
+  tags: [CO, IPT]
+
+- name: ECSA-JF
+  description: European Conference on Software Architecture - Journal First Track
+  year: 2026
+  link: https://conf.researchr.org/track/ecsa-2026/ecsa-2026-journal-first-track
+  deadline: 
+  - "2026-06-19 23:59"
+  date: September 7-11, 2026
+  place: Bolzano, Italy
+  tags: [CO, JFT]
+
+- name: ECSA-DS
+  description: European Conference on Software Architecture - Doctoral Symposium
+  year: 2026
+  link: https://conf.researchr.org/track/ecsa-2026/ecsa-2026-doctoral-symposium
+  deadline: 
+  - "2026-05-01 23:59"
+  abstract_deadline:
+  - "2026-04-24 23:59"
+  date: September 7-11, 2026
+  place: Bolzano, Italy
+  note: Mandatory abstract deadline on April 24, 2026.
+  tags: [CO, DOS]
+
+- name: ECSA-RRT
+  description: European Conference on Software Architecture - Registered Reports Track
+  year: 2026
+  link: https://conf.researchr.org/track/ecsa-2026/ecsa-2026-registered-reports-track
+  deadline: 
+  - "2026-05-01 23:59"
+  date: September 7-11, 2026
+  place: Bolzano, Italy
+  tags: [CO, RRT]
+
+- name: ECSA-TDT
+  description: European Conference on Software Architecture - Tool Demo Track
+  year: 2026
+  link: https://conf.researchr.org/track/ecsa-2026/ecsa-2026-tool-and-demo-track
+  deadline: 
+  - "2026-05-01 23:59"
+  abstract_deadline:
+  - "2026-04-24 23:59"
+  date: September 7-11, 2026
+  place: Bolzano, Italy
+  note: Mandatory abstract deadline on April 24, 2026.
+  tags: [CO, TOT]
+    
 # ICSMEs
 - name: ICSME
   description: International Conference on Software Maintenance and Evolution - Research Track
@@ -920,12 +993,12 @@
 # ISSTA
 - name: ISSTA
   description: International Symposium on Software Testing and Analysis
-  year: 2025
-  link: https://conf.researchr.org/track/issta-2025/issta-2025-papers#Call-for-Papers
+  year: 2026
+  link: https://conf.researchr.org/track/issta-2026/issta-2026-research-papers
   deadline: 
-  - "2024-10-31 23:59"
-  date: June 25-28, 2025 co-located with FSE 2025
-  place: Trondheim, Norway
+  - "2026-01-29 23:59"
+  date: October 3-9, 2026
+  place: Oakland, California, United States
   tags: [CO, RPT]
 
 # SecDev
