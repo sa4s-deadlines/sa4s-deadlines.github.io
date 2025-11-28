@@ -1624,7 +1624,7 @@
   - "2025-10-31 23:59"
   tags: [JO]
 
-- name: IST-SAForAI
+- name: IST-SAFAI
   description: Software Architecture for AI-Driven Systems: Challenges and Emerging Solutions
   year: 2026
   link: https://www.sciencedirect.com/special-issue/325890/software-architecture-for-ai-driven-systems-challenges-and-emerging-solutions
