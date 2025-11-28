@@ -920,14 +920,16 @@
   tags: [CO, RPT]
 
 - name: ICSME-NIER
-  description: International Conference on Software Maintenance and Evolution - New Ideas and Emerging Results
-  year: 2025
-  link: https://conf.researchr.org/track/icsme-2025/icsme-2025-nier
+  description: International Conference on Software Maintenance and Evolution - Vision and Emerging Results Track
+  year: 2026
+  link: https://conf.researchr.org/track/icsme-2026/icsme-2026-nier
   deadline: 
-  - "2025-06-05 23:59"
-  date: September 7-12, 2025
-  place: Auckland, New Zealand
-  note: Mandatory abstract deadline on May 30 2025.
+  - "2026-05-15 23:59"
+  abstract_deadline:
+  - "2026-05-11 23:59"
+  date: September 14-18, 2026
+  place: Benevento, Italy
+  note: Mandatory abstract deadline on May 11 2026.
   tags: [CO, NIER]
 
 - name: ICSME-ROSE
@@ -953,43 +955,48 @@
 
 - name: ICSME-TDT
   description: International Conference on Software Maintenance and Evolution - Tool Demo Track
-  year: 2025
-  link: https://conf.researchr.org/track/icsme-2025/icsme-2025-tool-demonstration
+  year: 2026
+  link: https://conf.researchr.org/track/icsme-2026/icsme-2026-tool-demonstration
   deadline: 
-  - "2025-06-27 23:59"
-  date: September 7-12, 2025
-  place: Auckland, New Zealand
+  - "2026-05-28 23:59"
+  abstract_deadline:
+  - "2026-05-24 23:59"
+  date: September 14-18, 2026
+  place: Benevento, Italy
+  note: Mandatory abstract deadline on May 24 2026.
   tags: [CO, TOT]
 
 - name: ICSME-IT
   description: International Conference on Software Maintenance and Evolution - Industry Track
-  year: 2025
-  link: https://conf.researchr.org/track/icsme-2025/icsme-2025-industry-track
+  year: 2026
+  link: https://conf.researchr.org/track/icsme-2026/icsme-2026-industry-track
   deadline: 
-  - "2025-05-18 23:59"
-  date: September 7-12, 2025
-  place: Auckland, New Zealand
-  note: Mandatory abstract deadline on May 11 2025.
+  - "2026-05-15 23:59"
+  abstract_deadline:
+  - "2026-05-08 23:59"
+  date: September 14-18, 2026
+  place: Benevento, Italy
+  note: Mandatory abstract deadline on May 08 2025.
   tags: [CO, IPT]
 
 - name: ICSME-JF
   description: International Conference on Software Maintenance and Evolution - Journal First Track
-  year: 2025
-  link: https://conf.researchr.org/track/icsme-2025/icsme-2025-journal-first
+  year: 2026
+  link: https://conf.researchr.org/track/icsme-2026/icsme-2026-journal-first
   deadline: 
-  - "2025-06-06 23:59"
-  date: September 7-12, 2025
-  place: Auckland, New Zealand
+  - "2026-06-06 23:59"
+  date: September 14-18, 2026
+  place: Benevento, Italy
   tags: [CO, JFT]
 
 - name: ICSME-DS
   description: International Conference on Software Maintenance and Evolution - Doctoral Symposium
-  year: 2025
-  link: https://conf.researchr.org/track/icsme-2025/icsme-2025-doctoral-symposium
+  year: 2026
+  link: https://conf.researchr.org/track/icsme-2026/icsme-2026-doctoral-symposium
   deadline: 
-  - "2025-06-12 23:59"
-  date: September 7-12, 2025
-  place: Auckland, New Zealand
+  - "2025-06-03 23:59"
+  date: September 14-18, 2026
+  place: Benevento, Italy
   tags: [CO, DOS]
 
 # ISSTA
