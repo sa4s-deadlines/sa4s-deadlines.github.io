@@ -1397,15 +1397,15 @@
   place: Salerno, Italy
   tags: [CO, RPT]
 
-# ASE 2025
+# ASE
 - name: ASE
   description: International Conference on Automated Software Engineering (ASE) - Research Paper Track
-  year: 2025
-  link: https://conf.researchr.org/home/ase-2025
+  year: 2026
+  link: https://conf.researchr.org/track/ase-2026/ase-2026-research-track
   deadline: 
-  - "2025-05-30 23:59"
-  date: November 16 - November 20, 2025
-  place: Seoul, South Korea
+  - "2026-03-26 23:59"
+  date: October 12 - October 16, 2026
+  place: Munich, Germany
   tags: [CO, RPT]
 
 - name: ASE-JFT
