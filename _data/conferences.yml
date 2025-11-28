@@ -1624,6 +1624,14 @@
   - "2025-10-31 23:59"
   tags: [JO]
 
+- name: IST-SA4AI
+  description: Software Architecture for AI-Driven Systems: Challenges and Emerging Solutions
+  year: 2026
+  link: https://www.sciencedirect.com/special-issue/325890/software-architecture-for-ai-driven-systems-challenges-and-emerging-solutions
+  deadline: 
+  - "2026-01-15 23:59"
+  tags: [JO]  
+
 # JSS
 - name: JSS-QAICT
   description: Journal of Systems and Software - Quality Assurance in ICT-based Systems
@@ -1695,6 +1703,14 @@
   link: https://www.sciencedirect.com/special-issue/321600/refsq-2025-social-responsibility
   deadline: 
   - "2025-11-01 23:59"
+  tags: [JO]
+
+- name: JSS-ISA
+  description: Journal of Systems and Software - Impactful Software Architecture
+  year: 2026
+  link: https://www.sciencedirect.com/special-issue/325939/impactful-software-architecture
+  deadline: 
+  - "2026-01-31 23:59"
   tags: [JO]
 
 - name: VehicleSec
