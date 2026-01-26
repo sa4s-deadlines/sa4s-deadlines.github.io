@@ -1394,12 +1394,12 @@
 
 - name: ASE-IS
   description: International Conference on Automated Software Engineering (ASE) - Industry Showcase
-  year: 2025
-  link: https://conf.researchr.org/track/ase-2025/ase-2025-industry-showcase
+  year: 2026
+  link: https://conf.researchr.org/track/ase-2026/ase-2026-industry-showcase
   deadline: 
-  - "2025-08-01 23:59"
-  date: November 16 - November 20, 2025
-  place: Seoul, South Korea
+  - "2026-04-23 23:59"
+  date: October 12 - 16, 2026
+  place: Munich, Germany
   tags: [CO, IPT]
 
 - name: ASE-NIER
