@@ -696,19 +696,32 @@
   year: 2026
   link: https://conf.researchr.org/track/eseiw-2026/eseiw-2026-esem---technical-track
   deadline: 
-  - "2026-04-29 23:59"
+  - "2026-05-14 23:59"
   date: October 4 - October 9, 2026
   place: München, Germany
-  note: Mandatory abstract deadline on Apr 22, 2026.
+  note: Mandatory abstract deadline on May 8, 2026.
   tags: [CO, RPT]
+
+- name: ESEM
+  description: International Symposium on Empirical Software Engineering and Measurement - Software Engineering in Practice
+  year: 2026
+  link: https://conf.researchr.org/track/eseiw-2026/eseiw-2026-esem---seip-track
+  deadline: 
+  - "2026-05-27 23:59"
+  date: October 4 - October 9, 2026
+  place: München, Germany
+  note: Mandatory abstract deadline on May 20, 2026.
+  tags: [CO, IPT]
 
 - name: ESEM-ERVR
   description: International Symposium on Empirical Software Engineering and Measurement - Emerging Results, Vision and Reflection Papers
   year: 2026
   link: https://conf.researchr.org/track/eseiw-2026/eseiw-2026-emerging-results-and-vision-track
-  deadline: ["TBA"]
+  deadline: 
+  - "2026-05-29 23:59"
   date: October 4 - October 9, 2026
   place: München, Germany
+  note: Mandatory abstract deadline on May 22, 2026.
   tags: [CO, NIER]
 
 - name: ESEM-RR
@@ -777,28 +790,28 @@
 # ICSAs
 - name: ICSA
   description: International Conference on Software Architecture - Research Track
-  year: 2026
-  link: https://conf.researchr.org/track/icsa-2026/icsa-2026-papers
+  year: 2027
+  link: https://conf.researchr.org/track/icsa-2027/icsa-2027-papers
   deadline: 
-  - "2025-12-08 23:59"
+  - "2026-11-04 23:59"
   abstract_deadline:
-  - "2025-11-28 23:59"
-  date: June 22-26, 2026
-  place: Amsterdam, Netherlands
-  note: Mandatory abstract deadline on November 28, 2025.
+  - "2026-10-30 23:59"
+  date: March 8-12, 2027
+  place: Sydney, Australia
+  note: Mandatory abstract deadline on October 30, 2026.
   tags: [CO, RPT]
 
 - name: ICSA - SAIP
   description: International Conference on Software Architecture - Software Architecture in Practice Track
-  year: 2026
-  link: https://conf.researchr.org/track/icsa-2026/icsa-2026-software-architecture-in-practice-track
+  year: 2027
+  link: https://conf.researchr.org/track/icsa-2027/icsa-2027-software-architecture-in-practice-track
   deadline: 
-  - "2025-12-08 23:59"
+  - "2026-11-04 23:59"
   abstract_deadline:
-  - "2025-11-28 23:59"
-  date: June 22-26, 2026
-  place: Amsterdam, Netherlands
-  note: Mandatory abstract deadline on November 28, 2025.
+  - "2026-10-30 23:59"
+  date: March 8-12, 2027
+  place: Sydney, Australia
+  note: Mandatory abstract deadline on October 30, 2026.
   tags: [CO, SAIP]
   
 - name: ICSA - NEMI
@@ -827,12 +840,12 @@
   year: 2026
   link: https://conf.researchr.org/track/ecsa-2026/ecsa-2026-technical-track
   deadline: 
-  - "2026-03-20 23:59"
+  - "2026-03-27 23:59"
   abstract_deadline:
-  - "2026-03-13 23:59"
+  - "2026-03-20 23:59"
   date: September 7-11, 2026
   place: Bolzano, Italy
-  note: Mandatory abstract deadline on March 13, 2026.
+  note: Mandatory abstract deadline on March 20, 2026.
   tags: [CO, RPT]
 
 - name: ECSA - IT
@@ -840,12 +853,12 @@
   year: 2026
   link: https://conf.researchr.org/track/ecsa-2026/ecsa-2026-industrial-track
   deadline: 
-  - "2026-05-01 23:59"
+  - "2026-05-08 23:59"
   abstract_deadline:
-  - "2026-04-24 23:59"
+  - "2026-05-01 23:59"
   date: September 7-11, 2026
   place: Bolzano, Italy
-  note: Mandatory abstract deadline on April 24, 2026.
+  note: Mandatory abstract deadline on May 1, 2026.
   tags: [CO, IPT]
 
 - name: ECSA-JF
@@ -853,7 +866,7 @@
   year: 2026
   link: https://conf.researchr.org/track/ecsa-2026/ecsa-2026-journal-first-track
   deadline: 
-  - "2026-06-19 23:59"
+  - "2026-06-26 23:59"
   date: September 7-11, 2026
   place: Bolzano, Italy
   tags: [CO, JFT]
@@ -863,12 +876,12 @@
   year: 2026
   link: https://conf.researchr.org/track/ecsa-2026/ecsa-2026-doctoral-symposium
   deadline: 
-  - "2026-05-01 23:59"
+  - "2026-05-08 23:59"
   abstract_deadline:
-  - "2026-04-24 23:59"
+  - "2026-05-01 23:59"
   date: September 7-11, 2026
   place: Bolzano, Italy
-  note: Mandatory abstract deadline on April 24, 2026.
+  note: Mandatory abstract deadline on May 1, 2026.
   tags: [CO, DOS]
 
 - name: ECSA-RRT
@@ -876,7 +889,7 @@
   year: 2026
   link: https://conf.researchr.org/track/ecsa-2026/ecsa-2026-registered-reports-track
   deadline: 
-  - "2026-05-01 23:59"
+  - "2026-05-08 23:59"
   date: September 7-11, 2026
   place: Bolzano, Italy
   tags: [CO, RRT]
@@ -886,12 +899,12 @@
   year: 2026
   link: https://conf.researchr.org/track/ecsa-2026/ecsa-2026-tool-and-demo-track
   deadline: 
-  - "2026-05-01 23:59"
+  - "2026-05-08 23:59"
   abstract_deadline:
-  - "2026-04-24 23:59"
+  - "2026-05-01 23:59"
   date: September 7-11, 2026
   place: Bolzano, Italy
-  note: Mandatory abstract deadline on April 24, 2026.
+  note: Mandatory abstract deadline on May 1, 2026.
   tags: [CO, TOT]
     
 # ICSMEs
