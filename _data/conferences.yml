@@ -828,23 +828,56 @@
   
 - name: ICSA - NEMI
   description: International Conference on Software Architecture - New and Emerging Ideas Track
-  year: 2026
-  link: https://conf.researchr.org/track/icsa-2026/icsa-2026-new-and-emerging-ideas
+  year: 2027
+  link: https://conf.researchr.org/track/icsa-2027/icsa-2027-new-and-emerging-ideas
   deadline: 
-  - "2026-02-13 23:59"
-  date: June 22-26, 2026
-  place: Amsterdam, Netherlands
+  - "2026-12-20 23:59"
+  abstract_deadline:
+  - "2026-12-16 23:59"
+  date: March 8-12, 2027
+  place: Sydney, Australia
+  note: Mandatory abstract deadline on December 16, 2026.
   tags: [CO, NIER]
  
 - name: ICSA - posters-track
   description: International Conference on Software Architecture - Posters Track
-  year: 2026
-  link: https://conf.researchr.org/track/icsa-2026/icsa-2026-poster-track
+  year: 2027
+  link: https://conf.researchr.org/track/icsa-2027/icsa-2027-poster-track
   deadline: 
-  - "2026-02-13 23:59"
-  date: June 22-26, 2026
-  place: Amsterdam, Netherlands
+  - "2026-12-20 23:59"
+  date: March 8-12, 2027
+  place: Sydney, Australia
   tags: [CO, PT] 
+  
+- name: ICSA-ECRF
+  description: International Conference on Software Architecture - Early Career Researchers Forum
+  year: 2027
+  link: https://conf.researchr.org/track/icsa-2027/icsa-2027-early-career-track
+  deadline: 
+  - "2027-01-15 23:59"
+  date: March 8-12, 2027
+  place: Sydney, Australia
+  tags: [CO, DOS]
+  
+- name: ICSA-AT
+  description: International Conference on Software Architecture - Artifact Track
+  year: 2027
+  link: https://conf.researchr.org/track/icsa-2027/icsa-artifacts-evaluation-2027
+  deadline: 
+  - "2026-12-20 23:59"
+  date: March 8-12, 2027
+  place: Sydney, Australia
+  tags: [CO, ART]
+  
+- name: ICSA-SAS
+  description: International Conference on Software Architecture - Software Architecture Showcase
+  year: 2027
+  link: https://conf.researchr.org/track/icsa-2027/icsa-2027-software-architecture-showcase
+  deadline: 
+  - "2026-12-20 23:59"
+  date: March 8-12, 2027
+  place: Sydney, Australia
+  tags: [CO, TOT]
   
 # ECSAs
 - name: ECSA
