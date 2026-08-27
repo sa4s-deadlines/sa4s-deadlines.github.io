@@ -1537,23 +1537,23 @@
 
 - name: EASE-IP
   description: The International Conference on Evaluation and Assessment in Software Engineering (EASE) - Industry Papers
-  year: 2026
-  link: https://conf.researchr.org/track/ease-2026/ease-2026-industry-papers
+  year: 2027
+  link: https://conf.researchr.org/track/ease-2027/ease-2027-industry-papers
   deadline:
-   - "2026-03-02 23:59"
-  date: June 9 - June 12, 2026
-  place: Glasgow, United Kingdom
-  note: Abstract deadline on February 23, 2026
+   - "2027-03-01 23:59"
+  date: June 15 - June 18, 2027
+  place: Hanoi, Vietnam
+  note: Abstract deadline on February 22, 2026
   tags: [CO, IPT]
 
 - name: EASE-PV
   description: The International Conference on Evaluation and Assessment in Software Engineering (EASE) - Posters and Vision
-  year: 2026
-  link: https://conf.researchr.org/track/ease-2026/ease-2026-posters-and-vision
+  year: 2027
+  link: https://conf.researchr.org/track/ease-2027/ease-2027-posters-and-vision
   deadline:
-   - "2026-03-02 23:59"
-  date: June 9 - June 12, 2026
-  place: Glasgow, United Kingdom
+   - "2027-03-02 23:59"
+  date: June 15 - June 18, 2027
+  place: Hanoi, Vietnam
   tags: [CO, POS]
 
 - name: EASE-JF
@@ -1568,12 +1568,12 @@
 
 - name: EASE-DS
   description: The International Conference on Evaluation and Assessment in Software Engineering (EASE) - Doctoral Symposium
-  year: 2026
-  link: https://conf.researchr.org/track/ease-2026/ease-2026-doctoral-symposium
+  year: 2027
+  link: https://conf.researchr.org/track/ease-2027/ease-2027-doctoral-symposium
   deadline:
-   - "2026-03-02 23:59"
-  date: June 9 - June 12, 2026
-  place: Glasgow, United Kingdom
+   - "2027-03-08 23:59"
+  date: June 15 - June 18, 2027
+  place: Hanoi, Vietnam
   tags: [CO, DOS]
 
 - name: EASE-AID
