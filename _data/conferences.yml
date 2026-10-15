@@ -881,16 +881,16 @@
   
 # ECSAs
 - name: ECSA
-  description: European Conference on Software Architecture - Technical Track
-  year: 2026
-  link: https://conf.researchr.org/track/ecsa-2026/ecsa-2026-technical-track
+  description: European Conference on Software Architecture - Research Track
+  year: 2027
+  link: https://conf.researchr.org/track/ecsa-2027/ecsa-2027-research-track
   deadline: 
-  - "2026-03-27 23:59"
+  - "2027-03-19 23:59"
   abstract_deadline:
-  - "2026-03-20 23:59"
-  date: September 7-11, 2026
-  place: Bolzano, Italy
-  note: Mandatory abstract deadline on March 20, 2026.
+  - "2027-03-12 23:59"
+  date: September 27 - October 1, 2027
+  place: Porto, Portugal
+  note: Mandatory abstract deadline on March 12, 2027.
   tags: [CO, RPT]
 
 - name: ECSA - IT
@@ -955,13 +955,12 @@
 # ICSMEs
 - name: ICSME
   description: International Conference on Software Maintenance and Evolution - Research Track
-  year: 2026
-  link: https://conf.researchr.org/track/icsme-2026/icsme-2026-papers
+  year: 2027
+  link: https://conf.researchr.org/track/icsme-2027/icsme-2027-papers
   deadline: 
-  - "2026-03-06 23:59"
-  date: September 14 - September 18, 2026
-  place: Benevento, Italy
-  note: Abstract deadline on February 27, 2026.
+  - "2027-03-05 23:59"
+  date: September 7-11, 2027
+  place: Toronto, Canada
   tags: [CO, RPT]
 
 - name: ICSME-NIER
@@ -1526,13 +1525,13 @@
   
 - name: EASE-SPER
   description: The International Conference on Evaluation and Assessment in Software Engineering (EASE) - Short Papers, Emerging Results
-  year: 2026
-  link: https://conf.researchr.org/track/ease-2026/ease-2026-short-papers-and-emerging-results
+  year: 2027
+  link: https://conf.researchr.org/track/ease-2027/ease-2027-short-papers-and-emerging-results
   deadline:
-   - "2026-03-02 23:59"
-  date: June 9 - June 12, 2026
-  place: Glasgow, United Kingdom
-  note: Abstract deadline on February 23, 2026
+   - "2027-03-01 23:59"
+  date: June 15 - June 18, 2027
+  place: Hanoi, Vietnam
+  note: Abstract deadline on February 22, 2027
   tags: [CO, SPT]
 
 - name: EASE-IP
@@ -1543,7 +1542,7 @@
    - "2027-03-01 23:59"
   date: June 15 - June 18, 2027
   place: Hanoi, Vietnam
-  note: Abstract deadline on February 22, 2026
+  note: Abstract deadline on February 22, 2027
   tags: [CO, IPT]
 
 - name: EASE-PV
@@ -1578,33 +1577,33 @@
 
 - name: EASE-AID
   description: The International Conference on Evaluation and Assessment in Software Engineering (EASE) - AI Models / Data
-  year: 2026
-  link: https://conf.researchr.org/track/ease-2026/ease-2026-ai-models---data
+  year: 2027
+  link: https://conf.researchr.org/track/ease-2027/ease-2027-ai-models---data
   deadline:
-   - "2025-03-02 23:59"
-  date: June 9 - June 12, 2026
-  place: Glasgow, United Kingdom
+   - "2027-03-15 23:59"
+  date: June 15 - June 18, 2027
+  place: Hanoi, Vietnam
   tags: [CO, DB]
 
 - name: EASE-RENE
   description: The International Conference on Evaluation and Assessment in Software Engineering (EASE) - Reproducibility and Negative Results
-  year: 2026
-  link: https://conf.researchr.org/track/ease-2026/ease-2026-reproducibility-and-negative-results
+  year: 2027
+  link: https://conf.researchr.org/track/ease-2027/ease-2027-reproducibility-and-negative-results
   deadline:
-   - "2026-02-23 23:59"
-  date: June 9 - June 12, 2026
-  place: Glasgow, United Kingdom
-  note: Abstract deadline on February 23, 2026
+   - "2027-03-01 23:59"
+  date: June 15 - June 18, 2027
+  place: Hanoi, Vietnam
+  note: Abstract deadline on February 22, 2027
   tags: [CO, RENE]
 
 - name: EASE-TUT
   description: The International Conference on Evaluation and Assessment in Software Engineering (EASE) - Tutorials
-  year: 2026
-  link: https://conf.researchr.org/track/ease-2026/ease-2026-tutorial
+  year: 2027
+  link: https://conf.researchr.org/track/ease-2027/ease-2027-tutorial
   deadline:
-   - "2026-03-02 23:59"
-  date: June 9 - June 12, 2026
-  place: Glasgow, United Kingdom
+   - "2027-03-01 23:59"
+  date: June 15 - June 18, 2027
+  place: Hanoi, Vietnam
   tags: [CO, TTBT]
 
 # IST
